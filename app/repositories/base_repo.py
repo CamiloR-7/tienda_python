@@ -1,4 +1,4 @@
-from app.utils import leer_csv, escribir_csv, append_csv
+from utils import leer_csv, escribir_csv, append_csv
 
 class BaseRepo:
     def __init__(self, tabla, campos):

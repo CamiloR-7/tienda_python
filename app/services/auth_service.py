@@ -1,5 +1,5 @@
-from app.repositories.usuario_repo import UsuarioRepo
-from app.utils import generar_uuid
+from repositories.usuario_repo import UsuarioRepo
+from utils import generar_uuid
 
 class AuthService:
     def __init__(self):

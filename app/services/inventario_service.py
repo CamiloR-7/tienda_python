@@ -1,5 +1,5 @@
-from app.repositories.inventario_repo import InventarioRepo
-from app.utils import generar_uuid
+from repositories.inventario_repo import InventarioRepo
+from utils import generar_uuid
 
 class InventarioService:
     def __init__(self):

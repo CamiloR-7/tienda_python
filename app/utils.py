@@ -2,7 +2,7 @@ import csv
 import uuid
 from datetime import datetime
 from decimal import Decimal
-from app.config import CSV_FILES, HEADERS
+from config import CSV_FILES, HEADERS
 
 def generar_uuid():
     return str(uuid.uuid4())
@@ -42,3 +42,11 @@ def str_a_decimal(s):
 
 def ahora_str():
     return datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+
+def inicializar_csvs():
+    for tabla, campos in HEADERS.items():
+        path = CSV_FILES[tabla]
+        if not path.exists():
+            with open(path, 'w', newline='', encoding='utf-8') as f:
+                writer = csv.DictWriter(f, fieldnames=campos)
+                writer.writeheader()

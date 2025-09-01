@@ -1,8 +1,8 @@
-from app.services.auth_service import AuthService
-from app.services.producto_service import ProductoService
-from app.services.inventario_service import InventarioService
-from app.services.factura_service import FacturaService
-from app.repositories.producto_repo import ProductoRepo
+from services.auth_service import AuthService
+from services.producto_service import ProductoService
+from services.inventario_service import InventarioService
+from services.factura_service import FacturaService
+from repositories.producto_repo import ProductoRepo
 
 class CLI:
     def __init__(self):

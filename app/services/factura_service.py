@@ -1,6 +1,6 @@
-from app.repositories.factura_repo import FacturaRepo
-from app.utils import generar_uuid
-from app.config import IVA
+from repositories.factura_repo import FacturaRepo
+from utils import generar_uuid
+from config import IVA
 from datetime import datetime
 
 class FacturaService:

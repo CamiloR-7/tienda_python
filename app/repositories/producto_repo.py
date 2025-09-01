@@ -1,5 +1,5 @@
-from app.repositories.base_repo import BaseRepo
-from app.config import HEADERS
+from repositories.base_repo import BaseRepo
+from config import HEADERS
 
 class ProductoRepo(BaseRepo):
     def __init__(self):

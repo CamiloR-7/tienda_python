@@ -1,0 +1,3 @@
+id,documento,nombre,email,contrasenia,id_rol,id_sucursal
+a3772169-ddaa-4dc6-bd7f-cb7fd17ff0bd,123456789,Indio Patirajao,indio@correo.com,indio123,admin,
+88c68771-f2aa-4406-b9e4-66bda9f10ea6,1152123,Camilo Regueros,camilo@correo.com,camilo123,empleado,1

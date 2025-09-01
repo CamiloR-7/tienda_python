@@ -1,5 +1,5 @@
-from app.repositories.producto_repo import ProductoRepo
-from app.utils import generar_uuid, ahora_str
+from repositories.producto_repo import ProductoRepo
+from utils import generar_uuid, ahora_str
 
 class ProductoService:
     def __init__(self):
